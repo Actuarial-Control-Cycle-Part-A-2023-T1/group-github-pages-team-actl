@@ -1,5 +1,10 @@
 # 2023 ACTL4001 SOA Challenge Showcase
+The University of New South Wales
+
 Team ACTL
+
+Team Member: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
+
 
 
 # Risk and Risk Mitigation Considerations
