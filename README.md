@@ -19,11 +19,12 @@ Figure 4 suggests that if the inflation over the next five years is 5% higher th
 The analyses imply it is unfavourable if the actual prints of those economic figures are higher than expected as claim costs would be inflated. The desired result is when actual GDP figures are within 2.5% of base line estimation so the claim costs are manageable in the long run. However, given the negative relationship between economic growth and inflation (Andrés and Hernando), it is not too concerning as the impact of higher inflation is likely to be offset by lower-than-expected GDP growth.
 
 ## Qualitative Risks and Mitigations
-| | Risk | Mitigation | 
-| ------------- | ------------- |
+|   | Risk | Mitigation | 
+| ------------- | ------------- | ------------- |
 | 1 | The model assumes that all policyholders that are eligible for voluntary buyback program will take the offer. However, if certain households refuse to undertake the buyback and relocate, then there would be a significant impact on claim costs as there will be more claims with high severity. | Conduct community outreach and education programs to help raise awareness about the buyback scheme and explain the benefits. Hold extra reserves in the case that certain properties cannot be convinced. | 
 | 2 | Program costs from natural disasters may deviate highly from estimates as climate hazards are extremely volatile. | Have high reserves and capital in the case of an extreme event. Undertake reinsurance with a climate reinsurer or introduce a natural disaster pool. Monitor disasters frequently and update models when disaster occurs. | 
-
+| 3 | Model risks – claim values may deviate from expectation due to model risk, caused by improper fitting or lack of granularity. | Update model when more experience is obtained for specific hazards. Constantly monitor claims experience and update models and assumptions with experience. | 
+| 4 | Political changes and uncertainty may impact the success of the program. For example, changes in legislations may result in difficulty implementing the program. | Highlight the benefits of the program to government personnel and the wider population. |
 
 
 # Data and Data Limitations
