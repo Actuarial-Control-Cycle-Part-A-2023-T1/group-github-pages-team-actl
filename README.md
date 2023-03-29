@@ -37,6 +37,10 @@ The analyses imply it is unfavourable if the actual prints of those economic fig
 &nbsp;
 
 # Data and Data Limitations
+## Data source
+[2023 SOA Research Challenge] (https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/)
+
+## Data Limitations
 Limitations with the data mainly consisted of the lack of granularity of the data as well as a lack of data in general in some areas. More granular data at a claims or accident level rather than an aggregated level would allow for more accurate risk assessments as well as more thorough analysis within each region. For example, further breakdown on the location of homes damaged such as GNAFs or LGA’s as opposed to just region numbers, or a further breakdown of damage costs would allow for more sophisticated models to be built for both voluntary and involuntary displacement costs. 
 
 Further the lack of hazard specific data such as water levels for floods or severity of hurricanes and tropical storms resulted in less sophisticated models predicting accident frequency and severity. Once again, more granular data on the hazards would allow for more accurate models specific to the hazard to be developed.
