@@ -69,14 +69,19 @@ Region 6
 
 
 
-* There was a total of 3366 disasters over 60 years
-* Region 2 has the highest property damage over the last 60 years, stemming from extremely large disaster in 1989
-* Hazard data is typically high severity and low frequency for all 6 regions
+* There was only a total of 3366 disasters over 60 years, which is insufficient data for certain types of machine learning methods.
+* Region 2 has the highest property damage over the last 60 years, stemming from extremely large disaster in 1989.
+* Hazard data is typically high severity and low frequency for all 6 regions. 
 * Summary Statistics presented in the table below: 
 
-
-![Summary Statistics for 6 Regions](https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-team-actl/blob/e9b0087c9c030ef2f43601777a4eef0bb1ce8b50/SummaryStat.png)
-
+| Region | Count of Events | Average damage per event | Total damage |
+|---|---|---|---|
+| 1 | 618 | 1,387,526 | 857,491,111  |
+| 2 | 787 | 16,472,578 | 12,963,919,193 |
+| 3 | 781 | 1,847,967 | 1,443,261,916 |
+| 4 | 508 | 2,109,433 | 1,071,592,056 |
+| 5 | 424 | 7,861,843  | 3,333,421,586 |
+| 6 | 248 | 715,035  | 177,328,726  |
 
 # Data Preparation 
 
@@ -140,6 +145,8 @@ Region 6
 
 
 ![alt_text](images/image15.png "image_tooltip")
+
+# Modelling Methodology 
 
 
 # Risk and Risk Mitigation Considerations
