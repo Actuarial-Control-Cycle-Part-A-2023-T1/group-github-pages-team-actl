@@ -3,8 +3,146 @@ The University of New South Wales
 
 Team ACTL
 
-Team Member: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
+Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 
+# Project Overview
+
+This page showcases the process and results for developing a social insurance program for Storslysia in order to address the worsening climate situation. Our solution addresses both voluntary relocation costs through a buyback scheme and involuntary costs through a hazard insurance program. The showcase will provide comprehensive detail on the design of the program as well as the calculation of revenue and costs associated with the program. Moreover, due to the highly volatile nature of catastrophes and climate risk, the report also investigates further risks through a sensitivity analysis where several factors affecting the frequency and severity of catastrophes aggravate at a higher level than expected.
+
+
+# Exploratory Data Analysis
+
+Data Provided by SOA:
+
+
+
+* Historical Hazard Event Data
+* Economic and Demographic Data
+* SSP Emissions Scenarios
+
+
+## Initial Exploration of Historical Event Data
+Historical Event Data
+
+
+
+### Region 1 
+
+
+![Region 1 Total Damage Per Year](https://user-images.githubusercontent.com/113433441/228707074-2de5054e-e636-4491-8439-599139447b87.png)
+
+
+### Region 2 
+
+
+![Region 2 Total Damage Per Year](https://user-images.githubusercontent.com/113433441/228707119-2d3cc1df-165f-44d7-8853-9c1b93db815b.png)
+
+
+### Region 3 
+
+
+![Region 3 Total Damage Per Year](https://user-images.githubusercontent.com/113433441/228707162-9dba70d8-ba92-4a78-8e80-60eaa8e5dc45.png)
+
+
+### Region 4
+
+
+![Region 4 Total Damage Per Year](https://user-images.githubusercontent.com/113433441/228707204-88cdde81-dd0a-4eae-b1e1-75e485c92e65.png)
+
+
+### Region 5 
+
+
+![Region 5 Total Damage Per Year](https://user-images.githubusercontent.com/113433441/228707238-d4e32dc7-edb9-4460-bb25-fb117333f7b9.png)
+
+
+### Region 6 
+
+
+![Region 6 Total Damage Per Year](https://user-images.githubusercontent.com/113433441/228707275-4501e625-246b-4e13-b3e4-1426253218d8.png)
+
+
+**Key Conclusions of EDA**
+
+
+
+* There was only a total of 3366 disasters over 60 years, which is insufficient data for certain types of machine learning methods.
+* Region 2 has the highest property damage over the last 60 years, stemming from extremely large disaster in 1989.
+* Hazard data is typically high severity and low frequency for all 6 regions. 
+* Summary Statistics presented in the table below: 
+
+| Region | Count of Events | Average damage per event | Total damage |
+|---|---|---|---|
+| 1 | 618 | 1,387,526 | 857,491,111  |
+| 2 | 787 | 16,472,578 | 12,963,919,193 |
+| 3 | 781 | 1,847,967 | 1,443,261,916 |
+| 4 | 508 | 2,109,433 | 1,071,592,056 |
+| 5 | 424 | 7,861,843  | 3,333,421,586 |
+| 6 | 248 | 715,035  | 177,328,726  |
+
+# Data Preparation 
+
+
+## Historical Data Normalisation
+
+Our team prepared the Historical Hazard Event data for modelling by normalising the historical event data. Normalisation adjusts for the fact that if a hazard event of equal strength was to happen in the present, it will typically cause more damage than it had in past years because of wealth accumulation over time.
+
+Normalisation adjusts nominal economic loss from past disasters upwards by multiplying past damage with a factor for inflation, for population growth and for growth in wealth per capita (GDP), thus in effect estimating the damage a past hazard event would have caused had it hit the same, but nowadays wealthier, area today. Loss normalisation therefore provides a more accurate measure of the economic loss value of a hazard in the future. All Property damage losses were normalised to 2020 for analysis.
+
+
+![image](https://user-images.githubusercontent.com/113433441/228734835-77363404-9ab0-4101-a792-3bfb24b55ee1.png)
+
+
+
+## Inflation Modelling 
+
+Dollar values of property damage must be adjusted for inflation to 2020 dollar terms. The following process was utilised to clean inflation data. 
+
+
+## Population Projection 
+
+
+## GDP Modelling 
+
+## Graphical Impact of Normalisation
+
+The impact of normalisation on the histogram for each region is presented in the figures below. It is evident that normalising by inflation, GDP and Population leads to the best results. 
+
+### Region 1:
+
+
+![image](https://user-images.githubusercontent.com/113433441/228707940-ab5ad6e9-2221-4a1a-88f4-296a7d4021dd.png)
+
+### Region 2:
+
+
+![image](https://user-images.githubusercontent.com/113433441/228707998-88df1301-98bb-4b45-9106-6177b2c86763.png)
+
+
+### Region 3 
+
+
+![image](https://user-images.githubusercontent.com/113433441/228708053-c177afb6-428c-46d4-b7a7-a6f897c55bef.png)
+
+
+### Region 4
+
+
+![image](https://user-images.githubusercontent.com/113433441/228708118-7d2df720-99f9-4620-a8bd-02580bc0ff03.png)
+
+
+### Region 5
+
+
+![image](https://user-images.githubusercontent.com/113433441/228709117-55f0b0bd-7521-4ad2-a7c8-22e3347c9be0.png)
+
+
+### Region 6
+
+
+![image](https://user-images.githubusercontent.com/113433441/228734901-af091851-511a-4d9c-b770-f859319110c9.png)
+
+# Modelling Methodology 
 
 # Purpose and Objectives
 Natural disasters are an inescapable fact of life for those living in Storslysia. Because of this, an effective natural disaster insurance scheme is of utmost importance. Currently, there is a lack of protection against natural disasters, which necessitates government intervention. The newly proposed Social Insurance Program seeks to determine the most effective model for Storslysia’s population providing a social insurance scheme covering both involuntary and voluntary displacement. Coverage is countrywide and addresses voluntary, proactive relocation as well as involuntary displacement following a catastrophic event.   
