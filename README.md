@@ -3,9 +3,144 @@ The University of New South Wales
 
 Team ACTL
 
-Team Member: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
+Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 
 
+# Project Overview
+
+This page showcases the process and results for developing a social insurance program for Storslysia in order to address the worsening climate situation. Our solution addresses both voluntary relocation costs through a buyback scheme and involuntary costs through a hazard insurance program. The showcase will provide comprehensive detail on the design of the program as well as the calculation of revenue and costs associated with the program. Moreover, due to the highly volatile nature of catastrophes and climate risk, the report also investigates further risks through a sensitivity analysis where several factors affecting the frequency and severity of catastrophes aggravate at a higher level than expected.
+
+
+# Exploratory Data Analysis
+
+Data Provided by SOA:
+
+
+
+* Historical Hazard Event Data
+* Economic and Demographic Data
+* SSP Emissions Scenarios
+
+
+## Initial Exploration of Historical Event Data
+Historical Event Data
+
+
+![alt_text](images/image1.png "image_tooltip")
+
+
+Region 1 
+
+
+![alt_text](images/image2.png "image_tooltip")
+
+
+Region 2 
+
+
+![alt_text](images/image3.png "image_tooltip")
+
+
+Region 3 
+
+
+![alt_text](images/image4.png "image_tooltip")
+
+
+Region 4
+
+
+![alt_text](images/image5.png "image_tooltip")
+
+
+Region 5 
+
+
+![alt_text](images/image6.png "image_tooltip")
+
+
+Region 6 
+
+
+![alt_text](images/image7.png "image_tooltip")
+
+
+**Key Conclusions of EDA**
+
+
+
+* There was a total of 3366 disasters over 60 years
+* Region 2 has the highest property damage over the last 60 years, stemming from extremely large disaster in 1989
+* Hazard data is typically high severity and low frequency for all 6 regions
+* Summary Statistics presented in the table below: 
+
+
+![alt_text](images/image8.png "image_tooltip")
+
+
+
+# Data Preparation 
+
+
+## Historical Data Normalisation
+
+Our team prepared the Historical Hazard Event data for modelling by normalising the historical event data. Normalisation adjusts for the fact that if a hazard event of equal strength was to happen in the present, it will typically cause more damage than it had in past years because of wealth accumulation over time.
+
+Normalisation adjusts nominal economic loss from past disasters upwards by multiplying past damage with a factor for inflation, for population growth and for growth in wealth per capita (GDP), thus in effect estimating the damage a past hazard event would have caused had it hit the same, but nowadays wealthier, area today. Loss normalisation therefore provides a more accurate measure of the economic loss value of a hazard in the future. All Property damage losses were normalised to 2020 for analysis.
+
+
+![alt_text](images/image9.png "image_tooltip")
+
+
+
+## Inflation Modelling 
+
+Dollar values of property damage must be adjusted for inflation to 2020 dollar terms. The following process was utilised to clean inflation data. 
+
+
+## Population Projection 
+
+
+## GDP Modelling 
+
+## Graphical Impact of Normalisation
+
+The impact of normalisation on the histogram for each region is presented in the figures below. It is evident that normalising by inflation, GDP and Population leads to the best results. 
+
+Region 1:
+
+
+![alt_text](images/image10.png "image_tooltip")
+
+
+Region 2:
+
+
+![alt_text](images/image11.png "image_tooltip")
+
+
+Region 3 
+
+
+![alt_text](images/image12.png "image_tooltip")
+
+
+Region 4
+
+
+![alt_text](images/image13.png "image_tooltip")
+
+
+Region 5
+
+
+![alt_text](images/image14.png "image_tooltip")
+
+
+Region 6
+
+
+![alt_text](images/image15.png "image_tooltip")
 
 
 # Risk and Risk Mitigation Considerations
