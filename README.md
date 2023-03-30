@@ -75,8 +75,7 @@ Region 6
 * Summary Statistics presented in the table below: 
 
 
-![alt_text](images/image8.png "image_tooltip")
-
+![Summary Statistics for 6 Regions](https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-team-actl/blob/e9b0087c9c030ef2f43601777a4eef0bb1ce8b50/SummaryStat.png)
 
 
 # Data Preparation 
