@@ -7,6 +7,7 @@ Team Member: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 
 
 
+
 # Risk and Risk Mitigation Considerations
 
 ## Quantitative Risks & Sensitivity Analysis
@@ -48,7 +49,6 @@ Further the lack of hazard specific data such as water levels for floods or seve
 There is also no data provided regarding the existing insurance market in Storslysia, particularly around home and content insurance and whether or not coverage for natural disaster already exists. If such data was provided, programs could be proposed to work in conjunction with private insurers for more effective insurance options.
 
 The data provided also lacked long term information on population and GDP, with only 3 years of information being provided. This very short-term outlook made it very difficult to make realistic projections over a 20-year period. To address this, simplifying assumptions had to be made which may not be very accurate.
-
 
 &nbsp;
 
