@@ -109,36 +109,36 @@ Dollar values of property damage must be adjusted for inflation to 2020 dollar t
 
 The impact of normalisation on the histogram for each region is presented in the figures below. It is evident that normalising by inflation, GDP and Population leads to the best results. 
 
-Region 1:
+### Region 1:
 
 
 ![image](https://user-images.githubusercontent.com/113433441/228707940-ab5ad6e9-2221-4a1a-88f4-296a7d4021dd.png)
 
-Region 2:
+### Region 2:
 
 
 ![image](https://user-images.githubusercontent.com/113433441/228707998-88df1301-98bb-4b45-9106-6177b2c86763.png)
 
 
-Region 3 
+### Region 3 
 
 
 ![image](https://user-images.githubusercontent.com/113433441/228708053-c177afb6-428c-46d4-b7a7-a6f897c55bef.png)
 
 
-Region 4
+### Region 4
 
 
 ![image](https://user-images.githubusercontent.com/113433441/228708118-7d2df720-99f9-4620-a8bd-02580bc0ff03.png)
 
 
-Region 5
+### Region 5
 
 
 ![image](https://user-images.githubusercontent.com/113433441/228709117-55f0b0bd-7521-4ad2-a7c8-22e3347c9be0.png)
 
 
-Region 6
+### Region 6
 
 
 ![image](https://user-images.githubusercontent.com/113433441/228734901-af091851-511a-4d9c-b770-f859319110c9.png)
