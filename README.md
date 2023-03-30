@@ -91,7 +91,7 @@ Our team prepared the Historical Hazard Event data for modelling by normalising 
 Normalisation adjusts nominal economic loss from past disasters upwards by multiplying past damage with a factor for inflation, for population growth and for growth in wealth per capita (GDP), thus in effect estimating the damage a past hazard event would have caused had it hit the same, but nowadays wealthier, area today. Loss normalisation therefore provides a more accurate measure of the economic loss value of a hazard in the future. All Property damage losses were normalised to 2020 for analysis.
 
 
-![alt_text](images/image9.png "image_tooltip")
+![image](https://user-images.githubusercontent.com/113433441/228734835-77363404-9ab0-4101-a792-3bfb24b55ee1.png)
 
 
 
@@ -141,7 +141,7 @@ Region 5
 Region 6
 
 
-![alt_text](images/image15.png "image_tooltip")
+![image](https://user-images.githubusercontent.com/113433441/228734901-af091851-511a-4d9c-b770-f859319110c9.png)
 
 # Modelling Methodology 
 
