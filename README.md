@@ -217,7 +217,7 @@ Given Storslysia’s historical data for the last 60 years, property damage cost
 ## Costs without the program 
 Under the assumption that hazards will develop under the same frequency and severity as historical events, the mean total cost of property damage over all 6 Regions for 5 years is Ꝕ6,505,385,068. Over the long term (20 years) the total costs will be Ꝕ45,688,293,287. Within each region, the “normalised” total property damage and key statistics are shown in Table 1 along with the uncertainty.
 
-<img width="550" alt="image" src = "https://user-images.githubusercontent.com/81789358/229357854-d4cdca7d-4cd3-4c51-a2b9-6479b00d0c98.png">
+<img width="650" alt="image" src = "https://user-images.githubusercontent.com/81789358/229357854-d4cdca7d-4cd3-4c51-a2b9-6479b00d0c98.png">
 
 It is evident that Region 2 will have the highest property damage cost in the next few years (up to 80% of total damage). This is due to the significant higher population and house prices skewing more to the higher ends. The occurrence of natural disaster catastrophes is also the highest in region 2 with many coastal disasters, hail, and flooding. 
 It is notable that volatility for damage estimates for each region is quite high for most regions. This is because climate disasters are extremely volatile and unpredictable, making volatility a key risk in climate forecasting and modelling. We have considered this volatility in our program. 
@@ -226,7 +226,7 @@ It is notable that volatility for damage estimates for each region is quite high
 ### Buyback Scheme
 Sufficient reserves must be established to be able to repurchase properties for the buyback program. The reserves were estimated by assessing the percentage of houses considered as “very high-risk” for each region with historical data (See Appendix C). The grand total of reserves required for all of Storslysia is Ꝕ4,090,476,539. Note that this is the cost of all the at-risk properties, under the assumption that everyone will accept the buyback.
 
-<img width="550" alt="image" src="https://user-images.githubusercontent.com/81789358/229356981-29a4f397-d95e-4005-bf55-ed09ba7f44b7.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/81789358/229356981-29a4f397-d95e-4005-bf55-ed09ba7f44b7.png">
 
 ### Emergency Hazard Insurance 
 Since the buyback program will be a one-off initiative proposed to be completed over the next year, costs specified hereafter will address the ongoing hazard insurance program unless specified. 
@@ -234,21 +234,23 @@ Since the buyback program will be a one-off initiative proposed to be completed 
 ### Property Damage Costs
 With the buyback program implemented, high risk individuals have been relocated to safer areas and no longer vulnerable to extremely large damages from climate disasters. As such, within each region the distribution for property damage will shift left, as well as a reduction in standard deviation. In Figure 1, the red histogram represents log of property damage prior to the buyback, and the blue histogram represents the log of property damage post buyback. With the new distribution, new costs for Storslysia were simulated.
 
-<img width="350" alt="image" src="https://user-images.githubusercontent.com/81789358/229357040-d5c8d206-e94d-4bdd-9172-78e65f49916d.png">
+<img width="380" alt="image" src="https://user-images.githubusercontent.com/81789358/229357040-d5c8d206-e94d-4bdd-9172-78e65f49916d.png">
 We have also considered admin, handling, and temporary housing costs for those who require additional assistance while property damage is being repaired or retrofitted post disaster (See Appendix D). The summary of the program costs is summarised in Table 3. 
 Considering only the cost of the climate damage as compared to without the program, it is evident that estimated value of property damage is significantly lower, up to 70% lower (3.24 billion with the program compared to 6.51 billion without program). Further, the volatility associated with the climate cost estimates has also reduced by around 3 folds, demonstrating the benefit of the buyback initiative. However, we acknowledge the volatility is still quite high given the unpredictable nature of climate disasters. This is a key risk that would need to be managed, which we have proposed a funding strategy for in section 5.3.2.3. Alternatively, the government may look into reinsurance or catastrophe bonds in order to mitigate such uncertainty and risks. 
 
-<img width="550" alt="image" src="https://user-images.githubusercontent.com/81789358/229357072-61649c0c-1246-490e-85ea-97ab1ebd3d7a.png">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/81789358/229357072-61649c0c-1246-490e-85ea-97ab1ebd3d7a.png">
 
 ### Breakdown of Insurance Costs
 As required by the program, the total costs of the program remain well within the limit of 10% of GDP over the next 20 years. The uncertainty range shows that there is a 95% confidence that the program costs will not exceed 5% of GDP in any given year. Note the higher value in the year 2021, which includes the additional cost of the buyback program.
-<img style="float: right;" width="500" alt="image" src="https://user-images.githubusercontent.com/81789358/229357111-cf47b9c3-4cfc-4531-a459-e95de8bda600.png">
+
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/81789358/229357111-cf47b9c3-4cfc-4531-a459-e95de8bda600.png">
 
 ### Revenue 
 Our team has proposed a potential funding system that could be used for this program, inspired by the Spanish “Consorcio charge”. This system would require the working population to pay a fixed yearly surcharge based on region of residence, which is enough to cover the central estimate of climate property damage over that region. The government should then cover for anything that deviates above the central estimate (given high volatility). For example, a value that could be up to the 95th percentile of the damage cost. 
 
 ### Capital Required
 The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover for the whole of Storslysia. Assuming a constant risk-free rate over the next 20 years and 10% cost of capital, this converts to a risk margin Ꝕ 8,278,917,968 required today. This capital requirement was chosen with a 95% certainty that it will be sufficient to cover property damage over the next 20 years. See Appendix G for more detailed calculation.
+
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/81789358/229357300-cd7ea16a-6147-439a-8376-281c6d5c9468.png">
 
 # Risk and Risk Mitigation Considerations
@@ -261,14 +263,14 @@ A key assumption made was that natural disaster frequency and severity will foll
 
 The impact of higher emissions leads to more frequent events is that property Damage Costs are much higher and more frequent. As such, the volatility of the natural disasters also increases, as we notice that the very high emissions case has larger peaks and troughs compared to the base assumption case.
 
-<img width="433" alt="image" src="https://user-images.githubusercontent.com/81789358/229360366-ec537c78-512f-401f-9523-4d92e87321f6.png">
+<img width="371" alt="image" src="https://user-images.githubusercontent.com/81789358/229360721-f097ccae-32ed-43a2-b610-7df103ab7f78.png">
 
 Academic research has not yet been able to quantify the direct impact of climate change on the frequency and severity of natural disasters. As such, it will be a key component of the program to continuously monitor the development of natural disasters and adjust data and assumptions as necessary.
 
 ### Variations in Inflation and GDP Predictions and their Impact on Cost
 Since the accuracy of the claim costs prediction heavily relies on the accuracy of inflation, GDP and population forecasts, sensitivity analysis for each was conducted to gain a holistic view on potential financial impacts if the actual figures do not align with expectation.
 
-<img width="570" alt="Screen Shot 2023-04-03 at 12 48 47 am" src="https://user-images.githubusercontent.com/81789358/229360578-76f12ccf-32e9-4f2f-9fa2-559a6f661283.png">
+<img width="800" alt="Screen Shot 2023-04-03 at 12 48 47 am" src="https://user-images.githubusercontent.com/81789358/229360578-76f12ccf-32e9-4f2f-9fa2-559a6f661283.png">
 
 Figure 4 suggests that if the inflation over the next five years is 5% higher than the forecast every year, then the claim costs in 2025 would increase by 0.49%. On the other hand, the future values of claim costs are calculated based on a linear function of GDP and population. Thus, as GDP and population figures vary from the predictions, the impact on claim costs is scaled by the compounded variation between the realised and the base line figures. For instance, if GDP is always 2.5% higher than the estimation, then the claims costs in 2025 would increase by 13.14%.
 
