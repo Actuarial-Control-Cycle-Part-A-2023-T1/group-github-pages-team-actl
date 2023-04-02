@@ -208,6 +208,55 @@ Secondly, the choice of five and twenty years aligns with typical timelines of c
 
 &nbsp;
 
+# Pricing & Costs
+
+## Methodology 
+Due to the relatively infrequent nature of natural hazards, historical data for the extreme events is relatively scarce. As such, a probabilistic approach is typically the most appropriate way to handle natural hazard phenomena. 
+Given Storslysia’s historical data for the last 60 years, property damage costs were first normalised to 2020 values with inflation, population, and GDP (See Appendix A). Taking the logarithm of property damage costs, an appropriate distribution was fitted to the historical property damage. For each region, Monte Carlo simulation was then used to project hazards and the associated property damage cost.
+
+## Costs without the program 
+Under the assumption that hazards will develop under the same frequency and severity as historical events, the mean total cost of property damage over all 6 Regions for 5 years is Ꝕ6,505,385,068. Over the long term (20 years) the total costs will be Ꝕ45,688,293,287. Within each region, the “normalised” total property damage and key statistics are shown in Table 1 along with the uncertainty.
+<p style="text-align: center;">**5 years**1</p>
+| Region | No of Events | Total Damage cost of the Period | Std Dev | VaR | TVaR |
+| ___ | :-: | :-: | :-: | :-: | :-: |
+| 1 | 51 | 504956825 | 362854591 | 362854591 | 362854591 | 
+| 2 | | | | | | 
+| 3 | | | | | | 
+| 4 | | | | | | 
+| 5 | | | | | | 
+| 6 | | | | | | 
+| Total | | | | | | 
+
+It is evident that Region 2 will have the highest property damage cost in the next few years (up to 80% of total damage). This is due to the significant higher population and house prices skewing more to the higher ends. The occurrence of natural disaster catastrophes is also the highest in region 2 with many coastal disasters, hail, and flooding. 
+It is notable that volatility for damage estimates for each region is quite high for most regions. This is because climate disasters are extremely volatile and unpredictable, making volatility a key risk in climate forecasting and modelling. We have considered this volatility in our program. 
+
+## Cost with the program 
+### Buyback Scheme
+Sufficient reserves must be established to be able to repurchase properties for the buyback program. The reserves were estimated by assessing the percentage of houses considered as “very high-risk” for each region with historical data (See Appendix C). The grand total of reserves required for all of Storslysia is Ꝕ4,090,476,539. Note that this is the cost of all the at-risk properties, under the assumption that everyone will accept the buyback.
+<img width="486" alt="image" src="https://user-images.githubusercontent.com/81789358/229356981-29a4f397-d95e-4005-bf55-ed09ba7f44b7.png">
+
+### Emergency Hazard Insurance 
+Since the buyback program will be a one-off initiative proposed to be completed over the next year, costs specified hereafter will address the ongoing hazard insurance program unless specified. 
+
+### Property Damage Costs
+With the buyback program implemented, high risk individuals have been relocated to safer areas and no longer vulnerable to extremely large damages from climate disasters. As such, within each region the distribution for property damage will shift left, as well as a reduction in standard deviation. In Figure 1, the red histogram represents log of property damage prior to the buyback, and the blue histogram represents the log of property damage post buyback. With the new distribution, new costs for Storslysia were simulated.
+<img width="279" alt="image" src="https://user-images.githubusercontent.com/81789358/229357040-d5c8d206-e94d-4bdd-9172-78e65f49916d.png">
+We have also considered admin, handling, and temporary housing costs for those who require additional assistance while property damage is being repaired or retrofitted post disaster (See Appendix D). The summary of the program costs is summarised in Table 3. 
+Considering only the cost of the climate damage as compared to without the program, it is evident that estimated value of property damage is significantly lower, up to 70% lower (3.24 billion with the program compared to 6.51 billion without program). Further, the volatility associated with the climate cost estimates has also reduced by around 3 folds, demonstrating the benefit of the buyback initiative. However, we acknowledge the volatility is still quite high given the unpredictable nature of climate disasters. This is a key risk that would need to be managed, which we have proposed a funding strategy for in section 5.3.2.3. Alternatively, the government may look into reinsurance or catastrophe bonds in order to mitigate such uncertainty and risks. 
+<img width="488" alt="image" src="https://user-images.githubusercontent.com/81789358/229357072-61649c0c-1246-490e-85ea-97ab1ebd3d7a.png">
+
+### Breakdown of Insurance Costs
+As required by the program, the total costs of the program remain well within the limit of 10% of GDP over the next 20 years. The uncertainty range shows that there is a 95% confidence that the program costs will not exceed 5% of GDP in any given year. Note the higher value in the year 2021, which includes the additional cost of the buyback program.
+<img style="float: right;" width="300" alt="image" src="https://user-images.githubusercontent.com/81789358/229357111-cf47b9c3-4cfc-4531-a459-e95de8bda600.png">
+
+### Revenue 
+Our team has proposed a potential funding system that could be used for this program, inspired by the Spanish “Consorcio charge”. This system would require the working population to pay a fixed yearly surcharge based on region of residence, which is enough to cover the central estimate of climate property damage over that region. The government should then cover for anything that deviates above the central estimate (given high volatility). For example, a value that could be up to the 95th percentile of the damage cost. 
+
+### Capital Required
+The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover for the whole of Storslysia. Assuming a constant risk-free rate over the next 20 years and 10% cost of capital, this converts to a risk margin Ꝕ 8,278,917,968 required today. This capital requirement was chosen with a 95% certainty that it will be sufficient to cover property damage over the next 20 years. See Appendix G for more detailed calculation.
+![image](https://user-images.githubusercontent.com/81789358/229357300-cd7ea16a-6147-439a-8376-281c6d5c9468.png)
+&nbsp;
+
 # Risk and Risk Mitigation Considerations
 
 ## Quantitative Risks & Sensitivity Analysis
