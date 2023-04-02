@@ -249,8 +249,7 @@ Our team has proposed a potential funding system that could be used for this pro
 
 ### Capital Required
 The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover for the whole of Storslysia. Assuming a constant risk-free rate over the next 20 years and 10% cost of capital, this converts to a risk margin Ꝕ 8,278,917,968 required today. This capital requirement was chosen with a 95% certainty that it will be sufficient to cover property damage over the next 20 years. See Appendix G for more detailed calculation.
-![image](https://user-images.githubusercontent.com/81789358/229357300-cd7ea16a-6147-439a-8376-281c6d5c9468.png)
-&nbsp;
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/81789358/229357300-cd7ea16a-6147-439a-8376-281c6d5c9468.png">
 
 # Risk and Risk Mitigation Considerations
 
@@ -258,12 +257,18 @@ The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover fo
 ### SPCC Scenarios and Impact on Costs
 A key assumption made was that natural disaster frequency and severity will follow the same distribution as historical data over the foreseeable 20-year period. However, a risk is that climate change could potentially have a much larger impact on frequency and severity of hazards in Storslysia than predicted. Scenario analysis has been performed under the 4 potential emission scenarios and how it could impact costs of hazard insurance, under the assumption that increasing carbon emissions directly impacts the frequency of natural hazards.
 
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/81789358/229358213-fba78d5a-5c7f-458f-94af-8a2505455671.png">
+
 The impact of higher emissions leads to more frequent events is that property Damage Costs are much higher and more frequent. As such, the volatility of the natural disasters also increases, as we notice that the very high emissions case has larger peaks and troughs compared to the base assumption case.
+
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/81789358/229360366-ec537c78-512f-401f-9523-4d92e87321f6.png">
 
 Academic research has not yet been able to quantify the direct impact of climate change on the frequency and severity of natural disasters. As such, it will be a key component of the program to continuously monitor the development of natural disasters and adjust data and assumptions as necessary.
 
 ### Variations in Inflation and GDP Predictions and their Impact on Cost
 Since the accuracy of the claim costs prediction heavily relies on the accuracy of inflation, GDP and population forecasts, sensitivity analysis for each was conducted to gain a holistic view on potential financial impacts if the actual figures do not align with expectation.
+
+<img width="570" alt="Screen Shot 2023-04-03 at 12 48 47 am" src="https://user-images.githubusercontent.com/81789358/229360578-76f12ccf-32e9-4f2f-9fa2-559a6f661283.png">
 
 Figure 4 suggests that if the inflation over the next five years is 5% higher than the forecast every year, then the claim costs in 2025 would increase by 0.49%. On the other hand, the future values of claim costs are calculated based on a linear function of GDP and population. Thus, as GDP and population figures vary from the predictions, the impact on claim costs is scaled by the compounded variation between the realised and the base line figures. For instance, if GDP is always 2.5% higher than the estimation, then the claims costs in 2025 would increase by 13.14%.
 
@@ -278,6 +283,8 @@ The analyses imply it is unfavourable if the actual prints of those economic fig
 | 2 | Program costs from natural disasters may deviate highly from estimates as climate hazards are extremely volatile. | Have high reserves and capital in the case of an extreme event. Undertake reinsurance with a climate reinsurer or introduce a natural disaster pool. Monitor disasters frequently and update models when disaster occurs. | 
 | 3 | Model risks – claim values may deviate from expectation due to model risk, caused by improper fitting or lack of granularity. | Update model when more experience is obtained for specific hazards. Constantly monitor claims experience and update models and assumptions with experience. | 
 | 4 | Political changes and uncertainty may impact the success of the program. For example, changes in legislations may result in difficulty implementing the program. | Highlight the benefits of the program to government personnel and the wider population. |
+
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/81789358/229360608-4aa325d5-8c7d-499e-a161-5e8be3a5aa64.png">
 
 &nbsp;
 
