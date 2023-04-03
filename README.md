@@ -226,7 +226,10 @@ It is notable that volatility for damage estimates for each region is quite high
 ### Buyback Scheme
 Sufficient reserves must be established to be able to repurchase properties for the buyback program. The reserves were estimated by assessing the percentage of houses considered as “very high-risk” for each region with historical data (See Appendix C). The grand total of reserves required for all of Storslysia is Ꝕ4,090,476,539. Note that this is the cost of all the at-risk properties, under the assumption that everyone will accept the buyback.
 
-<img width="450" alt="image" src="https://user-images.githubusercontent.com/81789358/229356981-29a4f397-d95e-4005-bf55-ed09ba7f44b7.png">
+| Region 1 | Region 2 | Region 3 | Region 4 | Region 5 | Region 6 | Total |
+| --- | --- | ---- | ---- | ---- | ---- | ----- |
+| 440,879,170 | 1,899,479,015 | 658,770,612 | 175,219,043 | 777,465,776 | 138,662,922 | 4,090,476,539 |
+
 
 ### Emergency Hazard Insurance 
 Since the buyback program will be a one-off initiative proposed to be completed over the next year, costs specified hereafter will address the ongoing hazard insurance program unless specified. 
@@ -251,7 +254,15 @@ Our team has proposed a potential funding system that could be used for this pro
 ### Capital Required
 The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover for the whole of Storslysia. Assuming a constant risk-free rate over the next 20 years and 10% cost of capital, this converts to a risk margin Ꝕ 8,278,917,968 required today. This capital requirement was chosen with a 95% certainty that it will be sufficient to cover property damage over the next 20 years. See Appendix G for more detailed calculation.
 
-<img width="550" alt="image" src="https://user-images.githubusercontent.com/81789358/229357300-cd7ea16a-6147-439a-8376-281c6d5c9468.png">
+| Regions | Estimated Total Cost | 95th Percentile Damage Cost | Capital Required |
+| :-- | --- | --- | --- |
+| 1 | 1,490,336,252 | 2,322,245,935 | 831,909,683 |
+| 2 | 9,830,435,330 | 24,873,441,904 | 15,042,956,574 |
+| 3 | 2,140,965,868 | 4,930,681,880 | 2,789,716,012 |
+| 4 | 667,732,166 | 1,139,321,034 | 471,588,867 |
+| 5 | 851,241,276 | 1,861,229,548 | 1,009,988,272 |
+| 6 | 391,913,148 | 735,561,713 | 343,648,565 |
+| Total | 13,214,605,623 |  | 20,489,807,973 |
 
 # Risk and Risk Mitigation Considerations
 
