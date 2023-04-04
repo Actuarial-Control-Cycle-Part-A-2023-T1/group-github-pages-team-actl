@@ -289,8 +289,6 @@ Figure 4 suggests that if the inflation over the next five years is 5% higher th
 
 The analyses imply it is unfavourable if the actual prints of those economic figures are higher than expected as claim costs would be inflated. The desired result is when actual GDP figures are within 2.5% of base line estimation so the claim costs are manageable in the long run. However, given the negative relationship between economic growth and inflation (Andrés and Hernando), it is not too concerning as the impact of higher inflation is likely to be offset by lower-than-expected GDP growth.
 
-&nbsp;
-
 ## Qualitative Risks and Mitigations
 |   | Risk | Mitigation | 
 | ------------- | ------------- | ------------- |
