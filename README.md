@@ -1,3 +1,5 @@
+![](climate-change-facts-header-wide.gif)
+
 # 2023 ACTL4001 SOA Challenge Showcase
 The University of New South Wales
 
