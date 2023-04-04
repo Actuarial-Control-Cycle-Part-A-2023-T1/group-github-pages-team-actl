@@ -10,7 +10,7 @@ Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 This page showcases the process and results for developing a social insurance program for Storslysia in order to address the worsening climate situation. Our solution addresses both voluntary relocation costs through a buyback scheme and involuntary costs through a hazard insurance program. The showcase will provide comprehensive detail on the design of the program as well as the calculation of revenue and costs associated with the program. Moreover, due to the highly volatile nature of catastrophes and climate risk, the report also investigates further risks through a sensitivity analysis where several factors affecting the frequency and severity of catastrophes aggravate at a higher level than expected.
 
 
-# Exploratory Data Analysis
+# 📊 Exploratory Data Analysis
 
 Data Provided by SOA:
 
@@ -21,7 +21,7 @@ Data Provided by SOA:
 * SSP Emissions Scenarios
 
 
-## Initial Exploration of Historical Event Data
+## 📈 Initial Exploration of Historical Event Data
 Historical Event Data
 
 
@@ -80,7 +80,7 @@ Historical Event Data
 | 5 | 424 | 7,861,843  | 3,333,421,586 |
 | 6 | 248 | 715,035  | 177,328,726  |
 
-# Data Preparation 
+# 🔣 Data Preparation 
 
 
 ## Historical Data Normalisation
@@ -142,9 +142,9 @@ The impact of normalisation on the histogram for each region is presented in the
 
 ![image](https://user-images.githubusercontent.com/113433441/228734901-af091851-511a-4d9c-b770-f859319110c9.png)
 
-# Modelling Methodology 
+# 📃 Modelling Methodology 
 
-# Purpose and Objectives
+# 📝 Purpose and Objectives
 Natural disasters are an inescapable fact of life for those living in Storslysia. Because of this, an effective natural disaster insurance scheme is of utmost importance. Currently, there is a lack of protection against natural disasters, which necessitates government intervention. The newly proposed Social Insurance Program seeks to determine the most effective model for Storslysia’s population providing a social insurance scheme covering both involuntary and voluntary displacement. Coverage is countrywide and addresses voluntary, proactive relocation as well as involuntary displacement following a catastrophic event.   
 
 The primary objective of the program is to manage Storslysia’s exposure to financial impacts caused by catastrophic climate related events. Whilst complete prevention of climate catastrophes may not be possible, the program’s main objective remains to minimise the impact of the damages to citizens. Sufficient claims reserving must be kept ensuring feasibility of the program. Analysis of change in expected liabilities and expected vs actual cost analysis, as more experience develops will be some of the key metrics that will need to be closely monitored and investigated frequently to ensure the financial sustainability of the program.
@@ -153,7 +153,7 @@ To report on these metrics, the program will publish annual reports highlighting
 
 &nbsp;
 
-# Program Design
+# 📑 Program Design 
 
 The program aims to address Storslysia’s exposure to displacement risk through two key components. The first focuses on actions targeted at proactive voluntary relocation facilitated by a voluntary buyback scheme. The second component comprises of a hazard insurance program addressing involuntary displacement for those directly affected by climate catastrophes. Claim payouts for this hazard insurance program are designed to alleviate financial pressures associated with property damage, replacement accommodation and other costs. 
 
@@ -189,7 +189,7 @@ Secondly, the choice of five and twenty years aligns with typical timelines of c
 
 &nbsp;
 
-# Assumptions 
+# 🤔 Assumptions 
 | Modelling Assumptions | Rationale |
 | ------------- | ------------- |
 | Natural disaster frequency and severity will follow the same distribution as historical data over the next 5- 20 years. | The impacts of climate change are likely to impact the severity and frequency of natural disasters in the much longer term than relevant for policy analysis (i.e 50 - 100 years later). We have performed sensitivity analysis in the case this is not true. | 
@@ -208,7 +208,7 @@ Secondly, the choice of five and twenty years aligns with typical timelines of c
 
 &nbsp;
 
-# Pricing & Costs
+# Pricing & Costs 💵 💵
 
 ## Methodology 
 Due to the relatively infrequent nature of natural hazards, historical data for the extreme events is relatively scarce. As such, a probabilistic approach is typically the most appropriate way to handle natural hazard phenomena. 
@@ -224,7 +224,7 @@ It is notable that volatility for damage estimates for each region is quite high
 
 ## Cost with the program 
 ### Buyback Scheme
-Sufficient reserves must be established to be able to repurchase properties for the buyback program. The reserves were estimated by assessing the percentage of houses considered as “very high-risk” for each region with historical data (See Appendix C). The grand total of reserves required for all of Storslysia is Ꝕ4,090,476,539. Note that this is the cost of all the at-risk properties, under the assumption that everyone will accept the buyback.
+Sufficient reserves must be established to be able to repurchase properties for the buyback program. The reserves were estimated by assessing the percentage of houses considered as “very high-risk” for each region with historical data. The grand total of reserves required for all of Storslysia is Ꝕ4,090,476,539. Note that this is the cost of all the at-risk properties, under the assumption that everyone will accept the buyback.
 
 | Region 1 | Region 2 | Region 3 | Region 4 | Region 5 | Region 6 | Total |
 | --- | --- | ---- | ---- | ---- | ---- | ----- |
@@ -238,7 +238,7 @@ Since the buyback program will be a one-off initiative proposed to be completed 
 With the buyback program implemented, high risk individuals have been relocated to safer areas and no longer vulnerable to extremely large damages from climate disasters. As such, within each region the distribution for property damage will shift left, as well as a reduction in standard deviation. In Figure 1, the red histogram represents log of property damage prior to the buyback, and the blue histogram represents the log of property damage post buyback. With the new distribution, new costs for Storslysia were simulated.
 
 <img width="380" alt="image" src="https://user-images.githubusercontent.com/81789358/229357040-d5c8d206-e94d-4bdd-9172-78e65f49916d.png">
-We have also considered admin, handling, and temporary housing costs for those who require additional assistance while property damage is being repaired or retrofitted post disaster (See Appendix D). The summary of the program costs is summarised in Table 3. 
+We have also considered admin, handling, and temporary housing costs for those who require additional assistance while property damage is being repaired or retrofitted post disaster. The summary of the program costs is summarised in Table 3. 
 Considering only the cost of the climate damage as compared to without the program, it is evident that estimated value of property damage is significantly lower, up to 70% lower (3.24 billion with the program compared to 6.51 billion without program). Further, the volatility associated with the climate cost estimates has also reduced by around 3 folds, demonstrating the benefit of the buyback initiative. However, we acknowledge the volatility is still quite high given the unpredictable nature of climate disasters. This is a key risk that would need to be managed, which we have proposed a funding strategy for in section 5.3.2.3. Alternatively, the government may look into reinsurance or catastrophe bonds in order to mitigate such uncertainty and risks. 
 
 <img width="650" alt="image" src="https://user-images.githubusercontent.com/81789358/229357072-61649c0c-1246-490e-85ea-97ab1ebd3d7a.png">
@@ -252,7 +252,7 @@ As required by the program, the total costs of the program remain well within th
 Our team has proposed a potential funding system that could be used for this program, inspired by the Spanish “Consorcio charge”. This system would require the working population to pay a fixed yearly surcharge based on region of residence, which is enough to cover the central estimate of climate property damage over that region. The government should then cover for anything that deviates above the central estimate (given high volatility). For example, a value that could be up to the 95th percentile of the damage cost. 
 
 ### Capital Required
-The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover for the whole of Storslysia. Assuming a constant risk-free rate over the next 20 years and 10% cost of capital, this converts to a risk margin Ꝕ 8,278,917,968 required today. This capital requirement was chosen with a 95% certainty that it will be sufficient to cover property damage over the next 20 years. See Appendix G for more detailed calculation.
+The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover for the whole of Storslysia. Assuming a constant risk-free rate over the next 20 years and 10% cost of capital, this converts to a risk margin Ꝕ 8,278,917,968 required today. This capital requirement was chosen with a 95% certainty that it will be sufficient to cover property damage over the next 20 years. 
 
 | Regions | Estimated Total Cost | 95th Percentile Damage Cost | Capital Required |
 | :-- | --- | --- | --- |
@@ -264,7 +264,9 @@ The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover fo
 | 6 | 391,913,148 | 735,561,713 | 343,648,565 |
 | Total | 13,214,605,623 |  | 20,489,807,973 |
 
-# Risk and Risk Mitigation Considerations
+&nbsp;
+
+# ❕ Risk and Risk Mitigation Considerations
 
 ## Quantitative Risks & Sensitivity Analysis
 ### SPCC Scenarios and Impact on Costs
