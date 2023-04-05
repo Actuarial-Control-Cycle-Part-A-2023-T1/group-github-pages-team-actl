@@ -46,7 +46,7 @@ Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 - [📝 Data and Data Limitations](#---data-and-data-limitations)
 - [Bibliography](#bibliography)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+&nbsp;
 
 # Project Overview
 
