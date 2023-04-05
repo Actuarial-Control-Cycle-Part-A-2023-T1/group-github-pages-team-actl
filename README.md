@@ -188,6 +188,15 @@ The impact of normalisation on the histogram for each region is presented in the
 
 # 📃 Modelling Methodology 
 
+Simulation Methodology
+1.	Estimate the probability of a climate hazard occurring in one day (p) using historical data of event frequency and event duration. 
+2.	Fit an appropriate distribution to the historical property damage data, after considering the impact of voluntary buyback. We have assumed that voluntary buyback will reduce extreme claims as those at-risk properties have been relocated. 
+3.	Simulate n years. For each day, a hazard will or will not occur. This is generated using a Bernoulli with probability p. If the hazard occurs, the amount of property damage of that hazard is estimated using the severity distribution. 
+4.	Repeated every day for N years.
+5.	Repeated for 1000 iterations.
+6.	The result is averaged in a Monte Carlo process. 
+
+
 # 🎯 Purpose and Objectives
 Natural disasters are an inescapable fact of life for those living in Storslysia. Because of this, an effective natural disaster insurance scheme is of utmost importance. Currently, there is a lack of protection against natural disasters, which necessitates government intervention. The newly proposed Social Insurance Program seeks to determine the most effective model for Storslysia’s population providing a social insurance scheme covering both involuntary and voluntary displacement. Coverage is countrywide and addresses voluntary, proactive relocation as well as involuntary displacement following a catastrophic event.   
 
