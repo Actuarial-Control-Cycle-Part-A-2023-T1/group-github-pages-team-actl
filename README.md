@@ -292,6 +292,7 @@ The figure above suggests that if the inflation over the next five years is 5% h
 The analyses imply it is unfavourable if the actual prints of those economic figures are higher than expected as claim costs would be inflated. The desired result is when actual GDP figures are within 2.5% of base line estimation so the claim costs are manageable in the long run. However, given the negative relationship between economic growth and inflation ([Andrés and Hernando](https://www.bis.org/publ/confp04p.pdf)), it is not too concerning as the impact of higher inflation is likely to be offset by lower-than-expected GDP growth.
 
 ## Qualitative Risks and Mitigations
+       
 |   | Risk | Mitigation | 
 | ------------- | ------------- | ------------- |
 | 1 | The model assumes that all policyholders that are eligible for voluntary buyback program will take the offer. However, if certain households refuse to undertake the buyback and relocate, then there would be a significant impact on claim costs as there will be more claims with high severity. | Conduct community outreach and education programs to help raise awareness about the buyback scheme and explain the benefits. Hold extra reserves in the case that certain properties cannot be convinced. | 
