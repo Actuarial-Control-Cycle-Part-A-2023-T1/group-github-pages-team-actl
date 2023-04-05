@@ -210,7 +210,7 @@ Secondly, the choice of five and twenty years aligns with typical timelines of c
 
 &nbsp;
 
-# Pricing & Costs 💵 💵
+# 💵 Pricing & Costs
 
 ## Methodology 
 Due to the relatively infrequent nature of natural hazards, historical data for the extreme events is relatively scarce. As such, a probabilistic approach is typically the most appropriate way to handle natural hazard phenomena. 
