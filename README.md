@@ -7,6 +7,9 @@ Team ACTL
 
 Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 
+&nbsp;
+
+# Table of Contents 
 - [Project Overview](#project-overview)
 - [📊 Exploratory Data Analysis](#exploratory-data-analysis)
   * [📈 Initial Exploration of Historical Event Data](#initial-exploration-of-historical-event-data)
