@@ -147,7 +147,7 @@ Dollar values of property damage must be adjusted for inflation to 2020 dollar t
 
 
 ## GDP Modelling 
-
+o
 ## Graphical Impact of Normalisation
 
 The impact of normalisation on the histogram for each region is presented in the figures below. It is evident that normalising by inflation, GDP and Population leads to the best results. 
