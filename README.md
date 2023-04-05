@@ -44,6 +44,7 @@ Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
   * [Quantitative Risks & Sensitivity Analysis](#quantitative-risks---sensitivity-analysis)
   * [Qualitative Risks and Mitigations](#qualitative-risks-and-mitigations)
 - [📝 Data and Data Limitations](#-data-and-data-limitations)
+- [📝Additional Research on Displacement Impacts](#displacement-research)
 - [Bibliography](#bibliography)
 
 &nbsp;
