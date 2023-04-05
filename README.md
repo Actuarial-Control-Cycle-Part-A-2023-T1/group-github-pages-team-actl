@@ -55,7 +55,7 @@ This page showcases the process and results for developing a social insurance pr
 
 # 📊 Exploratory Data Analysis
 
-Data Provided by SOA:
+Data Provided by [SOA](https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/):
 
 
 
