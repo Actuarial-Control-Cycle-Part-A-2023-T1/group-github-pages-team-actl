@@ -289,7 +289,7 @@ Since the accuracy of the claim costs prediction heavily relies on the accuracy 
 
 The figure above suggests that if the inflation over the next five years is 5% higher than the forecast every year, then the claim costs in 2025 would increase by 0.49%. On the other hand, the future values of claim costs are calculated based on a linear function of GDP and population. Thus, as GDP and population figures vary from the predictions, the impact on claim costs is scaled by the compounded variation between the realised and the base line figures. For instance, if GDP is always 2.5% higher than the estimation, then the claims costs in 2025 would increase by 13.14%.
 
-The analyses imply it is unfavourable if the actual prints of those economic figures are higher than expected as claim costs would be inflated. The desired result is when actual GDP figures are within 2.5% of base line estimation so the claim costs are manageable in the long run. However, given the negative relationship between economic growth and inflation (Andrés and Hernando), it is not too concerning as the impact of higher inflation is likely to be offset by lower-than-expected GDP growth.
+The analyses imply it is unfavourable if the actual prints of those economic figures are higher than expected as claim costs would be inflated. The desired result is when actual GDP figures are within 2.5% of base line estimation so the claim costs are manageable in the long run. However, given the negative relationship between economic growth and inflation ([Andrés and Hernando](https://www.bis.org/publ/confp04p.pdf)), it is not too concerning as the impact of higher inflation is likely to be offset by lower-than-expected GDP growth.
 
 ## Qualitative Risks and Mitigations
 |   | Risk | Mitigation | 
