@@ -362,6 +362,30 @@ The data provided also lacked long term information on population and GDP, with 
 
 &nbsp;
 
+# Displacement Research
+Numerous papers have looked in depth into the various impacts of displacement both voluntarily and involunatrily and its profound effects on not just the immigrants but on the host community as well. The outcomes of these reasearch are summarised below.
+
+## Effects on Immigrants
+
+### Health and Well-being
+
+Studies have pointed to relocations causing significant impacts on the mental well beings of individuals forced to relocate. ‘The Contemporary refugee crisis’ saw about one third of displaced persons experiencing high rates of depression, anxiety, and social separation as a direct result of relocation which often leads to significantly lower quality of life in later life. Treatment for these affected individuals have shown to help, however generally do not have a huge benefit. Further, a research paper by the WHO also showed “significantly heightened risk of developing depression, anxiety, suicidal ideation and substance use problems” amongst children who were forced to leave their homes. It also showed significant increases of the presence of racial abuse and social disassociation amongst individuals relocating to new foreign locations. Studies also have highlighted the long run health effects on forced migrants. Bauer et al. (2017) saw WWI migrants experiencing a 12-21% higher mortality risk after the age of 68. Haukka et al. (2017) also found migrant were associated with a significantly increased risk of death due to heart and brain related diseases as well as a significantly higher prevalence of mental health issues amongst migrants.
+
+### Labor market outcomes
+
+A paper by Dustmann et al. (2017) conducted a comprehensive overview of migrants into the EU and their employment vs non migrants. It saw migrants had a 16.1% higher rate of unemployment in comparison to non migrants. It also saw migrants on average experiencing 6-9 months longer of unemployment in comparison to non migrants.  
+
+## Effects on Host Communities
+
+A research paper by the Department of Economics at the University of Warwick looked into the consequences of forced migration that estimate the impacts of displacement on wellbeing of host communities and on the immigrants themselves. Studies have found that influx of immigrants have resulted in negative impacts for the majority of the host community. Displacement has led to increase competition within host communities resulting in lower overall wages for low skilled and middle class workers. Influxes of immigrants have also seen to increase property and rental prices. The table below summarises reports that looked into effects of displacements on host communities occurring due to events in the past. 
+
+| Author    | Period | Event | Result |
+| ----------- | ----------- | ----------- | ----------- |
+| Dinas et al. (2019) | 2011-Present | Syrian Civil War | Significant decrease in wages of existing low skilled and middle class workers, surge in property price and rent |
+| Alix-Garcia et al. (2011) | 2003-2009 | Darfur Conflict | Increase in food prices and housing prices |
+| Calderon-Mejfa and Ibanze (2016) | 1998-2013 | Internal Colombia Conflict | Decrease in wages especially for low skilled and in the informal sector |
+
+
 # Bibliography
 * Alexandridis, K., Alexandridis@csiro, K. and Au (n.d.). Monte Carlo Extreme Event Simulations for Understanding Water Quality Change Classifications in the GBR Region MONTE CARLO EXTREME EVENT SIMULATIONS FOR UNDERSTANDING WATER QUALITY CHANGE CLASSIFICATIONS IN THE GBR REGION INTRODUCTION AND METHODOLOGICAL APPROACH. [online] Available at: <https://www.rrrc.org.au/wp-content/uploads/2014/06/497-CSIRO-Alexandridis-K-2008-Monte-Carlo-Extreme-Event-Simulations.pdf [Accessed 25 Mar. 2023]>. (Alexandridis, Alexandridis@csiro and Au, n.d.)
 
