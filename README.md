@@ -146,7 +146,7 @@ The impact of normalisation on the histogram for each region is presented in the
 
 # 📃 Modelling Methodology 
 
-# 📝 Purpose and Objectives
+# 🎯 Purpose and Objectives
 Natural disasters are an inescapable fact of life for those living in Storslysia. Because of this, an effective natural disaster insurance scheme is of utmost importance. Currently, there is a lack of protection against natural disasters, which necessitates government intervention. The newly proposed Social Insurance Program seeks to determine the most effective model for Storslysia’s population providing a social insurance scheme covering both involuntary and voluntary displacement. Coverage is countrywide and addresses voluntary, proactive relocation as well as involuntary displacement following a catastrophic event.   
 
 The primary objective of the program is to manage Storslysia’s exposure to financial impacts caused by catastrophic climate related events. Whilst complete prevention of climate catastrophes may not be possible, the program’s main objective remains to minimise the impact of the damages to citizens. Sufficient claims reserving must be kept ensuring feasibility of the program. Analysis of change in expected liabilities and expected vs actual cost analysis, as more experience develops will be some of the key metrics that will need to be closely monitored and investigated frequently to ensure the financial sustainability of the program.
@@ -191,7 +191,8 @@ Secondly, the choice of five and twenty years aligns with typical timelines of c
 
 &nbsp;
 
-# 🤔 Assumptions 
+# 🔎 Assumptions 
+
 | Modelling Assumptions | Rationale |
 | ------------- | ------------- |
 | Natural disaster frequency and severity will follow the same distribution as historical data over the next 5- 20 years. | The impacts of climate change are likely to impact the severity and frequency of natural disasters in the much longer term than relevant for policy analysis (i.e 50 - 100 years later). We have performed sensitivity analysis in the case this is not true. | 
@@ -240,6 +241,7 @@ Since the buyback program will be a one-off initiative proposed to be completed 
 With the buyback program implemented, high risk individuals have been relocated to safer areas and no longer vulnerable to extremely large damages from climate disasters. As such, within each region the distribution for property damage will shift left, as well as a reduction in standard deviation. In Figure 1, the red histogram represents log of property damage prior to the buyback, and the blue histogram represents the log of property damage post buyback. With the new distribution, new costs for Storslysia were simulated.
 
 <img width="380" alt="image" src="https://user-images.githubusercontent.com/81789358/229357040-d5c8d206-e94d-4bdd-9172-78e65f49916d.png">
+
 We have also considered admin, handling, and temporary housing costs for those who require additional assistance while property damage is being repaired or retrofitted post disaster. The summary of the program costs is summarised in Table 3. 
 Considering only the cost of the climate damage as compared to without the program, it is evident that estimated value of property damage is significantly lower, up to 70% lower (3.24 billion with the program compared to 6.51 billion without program). Further, the volatility associated with the climate cost estimates has also reduced by around 3 folds, demonstrating the benefit of the buyback initiative. However, we acknowledge the volatility is still quite high given the unpredictable nature of climate disasters. This is a key risk that would need to be managed, which we have proposed a funding strategy for in section 5.3.2.3. Alternatively, the government may look into reinsurance or catastrophe bonds in order to mitigate such uncertainty and risks. 
 
@@ -268,7 +270,7 @@ The capital required for the next 20 years will be Ꝕ20,489,807,973 to cover fo
 
 &nbsp;
 
-# ❕ Risk and Risk Mitigation Considerations
+# ❗ Risk and Risk Mitigation Considerations
 
 ## Quantitative Risks & Sensitivity Analysis
 ### SPCC Scenarios and Impact on Costs
@@ -292,7 +294,7 @@ The figure above suggests that if the inflation over the next five years is 5% h
 The analyses imply it is unfavourable if the actual prints of those economic figures are higher than expected as claim costs would be inflated. The desired result is when actual GDP figures are within 2.5% of base line estimation so the claim costs are manageable in the long run. However, given the negative relationship between economic growth and inflation ([Andrés and Hernando](https://www.bis.org/publ/confp04p.pdf)), it is not too concerning as the impact of higher inflation is likely to be offset by lower-than-expected GDP growth.
 
 ## Qualitative Risks and Mitigations
-       
+
 |   | Risk | Mitigation | 
 | ------------- | ------------- | ------------- |
 | 1 | The model assumes that all policyholders that are eligible for voluntary buyback program will take the offer. However, if certain households refuse to undertake the buyback and relocate, then there would be a significant impact on claim costs as there will be more claims with high severity. | Conduct community outreach and education programs to help raise awareness about the buyback scheme and explain the benefits. Hold extra reserves in the case that certain properties cannot be convinced. | 
@@ -304,7 +306,7 @@ The analyses imply it is unfavourable if the actual prints of those economic fig
 
 &nbsp;
 
-# Data and Data Limitations
+# 📝 Data and Data Limitations
 ## Data source
 [2023 SOA Research Challenge](https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/)
 
