@@ -140,17 +140,21 @@ Normalisation adjusts nominal economic loss from past disasters upwards by multi
 
 ## Inflation Modelling 
 
-Dollar values of property damage must be adjusted for inflation to 2020 dollar terms. The following process was utilised to clean inflation data. 
+Dollar values of property damage must be adjusted for inflation to 2020 dollar terms. The following process was utilised to clean inflation data. We created a CPI index wherein the cumulative inflation was representative of the CPI. Having calculated the cumulative inflation from 1960, these values were then used to project and forcast for future inflation. The specific forecasting method used in this process was a type of trend projection method, which assumes that the trend observed in historical data will continue into the future. Given that the historical data was linear, the forcast outputted values corresponding to this trend. While there may be some short-term fluctuations in inflation rates due to various factors, such as changes in the economy or government policies, the overall trend in inflation rates tends to be relatively stable over longer periods of time. As a result, a linear forecasting method was deemed appropriate for this particular analysis.
 
 
 ## Population Projection 
+To project the population values, a geometric approach was used. Given that populations tend to grow or decline exponentially over time, meaning that their growth rates are proportional to their current size. A geometric approach accounts for this exponential growth by using a constant growth rate over a given time period to estimate future population values. To do this, we calculated the average growth rate between the available data points, and then used that growth rate to project future population values. The following formula was used:
 
+![image](https://user-images.githubusercontent.com/113433492/230058605-f6bafb40-b033-4f65-8d82-370b4bd106a5.png)
 
 ## GDP Modelling 
-o
+To obtain the GDP values from 1960 to 2018, a fixed percentage method was used, wherein a fixed proportion of the global GDP was used. To do this, we first obtained world GDP data for each year. We then used the available GDP data to calculate the proportion of world GDP that Storslysia contributed in 2019 and 2020. Specifically, we found the percentage that Storslysia's GDP constituted of the world GDP in those years, and then averaged those two percentages to obtain a single average percentage. Using this average percentage, we then projected backwards in time to estimate the GDP values for each year from 1960 to 2018. Specifically, we multiplied the world GDP for each year by the average percentage to obtain an estimate of Storslysia's GDP for that year.
+
 ## Graphical Impact of Normalisation
 
 The impact of normalisation on the histogram for each region is presented in the figures below. It is evident that normalising by inflation, GDP and Population leads to the best results. 
+
 
 ### Region 1:
 
