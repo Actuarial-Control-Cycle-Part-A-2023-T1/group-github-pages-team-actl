@@ -7,6 +7,44 @@ Team ACTL
 
 Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 
+- [Project Overview](#project-overview)
+- [📊 Exploratory Data Analysis](#exploratory-data-analysis)
+  * [📈 Initial Exploration of Historical Event Data](#initial-exploration-of-historical-event-data)
+- [🔣 Data Preparation](#data-preparation)
+  * [Historical Data Normalisation](#historical-data-normalisation)
+  * [Inflation Modelling](#inflation-modelling)
+  * [Population Projection](#population-projection)
+  * [GDP Modelling](#gdp-modelling)
+  * [Graphical Impact of Normalisation](#graphical-impact-of-normalisation)
+
+- [📃 Modelling Methodology](#---modelling-methodology)
+- [🎯 Purpose and Objectives](#---purpose-and-objectives)
+- [📑 Program Design](#---program-design)
+  * [1. Buyback Scheme – Voluntary Relocation](#1-buyback-scheme---voluntary-relocation)
+  * [2. Incentives and Considerations of the Buyback Scheme](#2-incentives-and-considerations-of-the-buyback-scheme)
+  * [3. Hazard Insurance Coverage](#3-hazard-insurance-coverage)
+  * [4. Requirements of Claimants](#4-requirements-of-claimants)
+  * [5. Other Features](#5-other-features)
+  * [6. Evaluation Timeframes](#6-evaluation-timeframes)
+- [🔎 Assumptions](#---assumptions)
+- [💵 Pricing & Costs](#---pricing---costs)
+  * [Methodology](#methodology)
+  * [Costs without the program](#costs-without-the-program)
+  * [Cost with the program](#cost-with-the-program)
+    + [Buyback Scheme](#buyback-scheme)
+    + [Emergency Hazard Insurance](#emergency-hazard-insurance)
+    + [Property Damage Costs](#property-damage-costs)
+    + [Breakdown of Insurance Costs](#breakdown-of-insurance-costs)
+    + [Revenue](#revenue)
+    + [Capital Required](#capital-required)
+- [❗ Risk and Risk Mitigation Considerations](#--risk-and-risk-mitigation-considerations)
+  * [Quantitative Risks & Sensitivity Analysis](#quantitative-risks---sensitivity-analysis)
+  * [Qualitative Risks and Mitigations](#qualitative-risks-and-mitigations)
+- [📝 Data and Data Limitations](#---data-and-data-limitations)
+- [Bibliography](#bibliography)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # Project Overview
 
 This page showcases the process and results for developing a social insurance program for Storslysia in order to address the worsening climate situation. Our solution addresses both voluntary relocation costs through a buyback scheme and involuntary costs through a hazard insurance program. The showcase will provide comprehensive detail on the design of the program as well as the calculation of revenue and costs associated with the program. Moreover, due to the highly volatile nature of catastrophes and climate risk, the report also investigates further risks through a sensitivity analysis where several factors affecting the frequency and severity of catastrophes aggravate at a higher level than expected.
