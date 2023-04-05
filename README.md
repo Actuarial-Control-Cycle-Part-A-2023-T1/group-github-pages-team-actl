@@ -12,7 +12,7 @@ Team Members: Ishraq Ifaz, Jim Kwon, Maria Zhang, Michelle Xie, Winnie Su
 # Table of Contents 
 - [Project Overview](#project-overview)
 - [📊 Exploratory Data Analysis](#-exploratory-data-analysis)
-  * [📈 Initial Exploration of Historical Event Data](#-initial-exploration-of-historical-event-data)
+  * [Initial Exploration of Historical Event Data](#initial-exploration-of-historical-event-data)
 - [🔣 Data Preparation](#-data-preparation)
   * [Historical Data Normalisation](#historical-data-normalisation)
   * [Inflation Modelling](#inflation-modelling)
@@ -64,7 +64,7 @@ Data Provided by [SOA](https://www.soa.org/research/opportunities/2023-student-r
 * SSP Emissions Scenarios
 
 
-## 📈 Initial Exploration of Historical Event Data
+## Initial Exploration of Historical Event Data
 Historical Event Data
 
 
