@@ -396,6 +396,8 @@ A research paper by the Department of Economics at the University of Warwick loo
 | Calderon-Mejfa and Ibanze (2016) | 1998-2013 | Internal Colombia Conflict | Decrease in wages especially for low skilled and in the informal sector |
 
 # R-CODE
+https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-team-actl/blob/methodology/1.Prep.R
+https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-team-actl/blob/methodology/2.Region1.R
 
 # Bibliography
 * Alexandridis, K., Alexandridis@csiro, K. and Au (n.d.). Monte Carlo Extreme Event Simulations for Understanding Water Quality Change Classifications in the GBR Region MONTE CARLO EXTREME EVENT SIMULATIONS FOR UNDERSTANDING WATER QUALITY CHANGE CLASSIFICATIONS IN THE GBR REGION INTRODUCTION AND METHODOLOGICAL APPROACH. [online] Available at: <https://www.rrrc.org.au/wp-content/uploads/2014/06/497-CSIRO-Alexandridis-K-2008-Monte-Carlo-Extreme-Event-Simulations.pdf [Accessed 25 Mar. 2023]>. (Alexandridis, Alexandridis@csiro and Au, n.d.)
